@@ -1,0 +1,23 @@
+{
+  "name": "245",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w ./module/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mruminski/24.5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mruminski/24.5/issues"
+  },
+  "homepage": "https://github.com/mruminski/24.5#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
