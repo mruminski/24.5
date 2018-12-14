@@ -1,7 +1,7 @@
 const assert = require("assert");
 const calcDistancePoints = require("./calcDistancePoints");
 
-describe("calcDistancePoints", () => {
+describe("when we want to calc distance points with calcDistancePoints function", () => {
   it("should return distance points for distance < K point", () => {
     const actual = calcDistancePoints(110.5, "large", 120);
 

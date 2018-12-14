@@ -1,7 +1,7 @@
 const assert = require("assert");
 const calcTotalPoints = require("./calcTotalPoints");
 
-describe("calcTotalPoints", () => {
+describe("when we want to calc total points with calcTotalPoints function", () => {
   it("should return total result Severin Freund", () => {
     const actual = calcTotalPoints(
       227.5,

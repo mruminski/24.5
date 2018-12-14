@@ -1,7 +1,7 @@
 const assert = require("assert");
 const calcStylePoints = require("./calcStylePoints");
 
-describe("calcStylePoints", () => {
+describe("when we want to calc style points with calcStylePoints function", () => {
   it("should return style notes for non-repeat notes", () => {
     const actual = calcStylePoints([18, 19.5, 19, 17, 18.5]);
 
@@ -14,6 +14,14 @@ describe("calcStylePoints", () => {
     const actual = calcStylePoints([19.5, 19.5, 19.5, 19.5, 19.5]);
 
     const expected = 58.5;
+
+    assert.equal(actual, expected);
+  });
+
+  it("should return style notes for non-numeric notes", () => {
+    const actual = calcStylePoints(["18", 19.5, 19, "17", 18.5]);
+
+    const expected = 55.5;
 
     assert.equal(actual, expected);
   });
